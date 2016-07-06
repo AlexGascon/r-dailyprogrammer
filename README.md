@@ -9,8 +9,9 @@ Probably I won't upload the solution to every single challenge, because unfortun
 
 ## Current solutions
 ### Python
-[Easy challenge #271 - "Critical hit"] (https://www.reddit.com/r/dailyprogrammer/comments/4nvrnx/20160613_challenge_271_easy_critical_hit/) (2016-06-13)
+[Easy challenge #271 - "Critical hit"](https://www.reddit.com/r/dailyprogrammer/comments/4nvrnx/20160613_challenge_271_easy_critical_hit/) (2016-06-13)
 [Easy challenge #272 - "What's in the bag?"](https://www.reddit.com/r/dailyprogrammer/comments/4oylbo/20160620_challenge_272_easy_whats_in_the_bag/) (2016-06-20)
+[Easy challenge #273 - "Getting a degree"](https://www.reddit.com/r/dailyprogrammer/comments/4q35ip/20160627_challenge_273_easy_getting_a_degree/) (2016-06-27)
 
 ### MATLAB
 [Intermediate challenge #271 - "Making waves"](https://www.reddit.com/r/dailyprogrammer/comments/4o74p3/20160615_challenge_271_intermediate_making_waves/) (2016-06-15)
