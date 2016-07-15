@@ -13,6 +13,7 @@ Probably I won't upload the solution to every single challenge, because unfortun
 [Easy challenge #272 - "What's in the bag?"](https://www.reddit.com/r/dailyprogrammer/comments/4oylbo/20160620_challenge_272_easy_whats_in_the_bag/) (2016-06-20)
 [Easy challenge #273 - "Getting a degree"](https://www.reddit.com/r/dailyprogrammer/comments/4q35ip/20160627_challenge_273_easy_getting_a_degree/) (2016-06-27)
 [Easy challenge #274 - "Gold and treasure - The Beale cipher"](https://www.reddit.com/r/dailyprogrammer/comments/4r8fod/20160704_challenge_274_easy_gold_and_treasure_the/) (2016-07-04)
+[Easy challenge #275 - "Splurthian Chemistry 101"](https://www.reddit.com/r/dailyprogrammer/comments/4savyr/20160711_challenge_275_easy_splurthian_chemistry/) (2016-07-15)
 
 ### MATLAB
 [Intermediate challenge #271 - "Making waves"](https://www.reddit.com/r/dailyprogrammer/comments/4o74p3/20160615_challenge_271_intermediate_making_waves/) (2016-06-15)
