@@ -44,15 +44,25 @@ Tullium, Ty -> false
 
 
 BONUS
-Given an element name, find the valid symbol for that name that's first in 
+1. Given an element name, find the valid symbol for that name that's first in 
 alphabetical order. E.g. Gozerium -> Ei, Slimyrine -> Ie.
+
+2. Given an element name, find the number of distinct valid symbols for that
+name. E.g. Zuulon -> 11.
+
+3. The planet Blurth has similar symbol rules to Splurth, but symbols can be 
+any length, from 1 character to the entire length of the element name. Valid 
+Blurthian symbols for Zuulon include N, Uuo, and Zuuln. Complete challenge #2 
+for the rules of Blurth. E.g. Zuulon -> 47.
 """
 
 #Import needed for bonus
 import string
 
 def checksymbol(elementName, symbol):
-    print(elementName)
+    """Function that gets two string parameters: an element name and a symbol
+    used to represent it, and outputs a boolean indicating if the symbol is
+    valid for the given element"""
 
     #Rule 1: Two letters per symbol
     if len(symbol) != 2:
@@ -77,7 +87,12 @@ def checksymbol(elementName, symbol):
 
     return True
 
+# Function created for Bonus 1
 def findFirstSymbol(elementName):
+    """Function that gets a string parameter representing an element name and
+    returns a string representing the first symbol in alphabetical order for
+    that element. """
+
     alphabet = string.lowercase
     #Getting the order of each letter in the alphabet
     # We discard the last letter of the name when getting the first char because,
@@ -93,3 +108,31 @@ def findFirstSymbol(elementName):
     secondLetter = elementName[secondLetterIndex + (firstLetterIndex + 1)]
 
     return (firstLetter.upper() + secondLetter)
+
+# Function created for Bonus 2
+def countPossibleSymbols(elementName):
+    """Function that given an element name returns an integer representing the
+    amount of possible symbols available for it, according to the rules
+    previously stated"""
+
+    #Finding repeated consecutive letters (most of the symbols will appear twice) 
+    charsElemName = list(elementName)
+    repeatedLetters = [charsElemName[i+1] == charsElemName[i] for i in range(0, len(charsElemName)-1)]
+    #Taking the repeated letters out
+    #For each repeted letter, we can take out the letter and add to the count
+    #a +1, representing the repeated-letter symbol
+    #Ex: "Zuulon" will have the same symbols as "Zulon" + 1 ("Uu" symbol)
+    if True in repeatedLetters:
+        charsElemName.pop(repeatedLetters.index(True))
+        return countPossibleSymbols("".join(charsElemName)) + 1
+    else:
+        possibleSymbols = 
+
+
+print(countPossibleSymbols)
+
+
+
+
+
+
